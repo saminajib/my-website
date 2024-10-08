@@ -13,87 +13,89 @@
 </head>
 
 <body>
-    <div class="folder-container">
+    <div class="main-container">
+        <div class="folder-container">
 
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div><button onclick="toggleModal('Contact Manager',
-            'A basic contact manager using LAMP stack which contains a user database as well as corresponding contacts.',
-            '',
-            'https://github.com/saminajib/COP4331TEAM24')">Contact Manager</button></div>
-        </div>
-
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div><button onclick="toggleModal('PL/0 Compiler',
-            'Compiler for PL/0 language using top down parser descent. Guarantees adherence to language EBNF and generates corresponding machine code if no grammar or syntax errors exist. Repo also contains virtual machine to test machine code and simulate stack.',
-            '',
-            'https://github.com/saminajib')">PL/0 Compiler</button></div>
-        </div>
-
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div><button onclick="toggleModal('Study Flash',
-            'A website to make studying as efficient as possible by saving time with advanced ai study material generation.',
-            'https://studyflash.study',
-            'https://github.com/seb1124/studyFlash')">Study Flash</button></div>
-        </div>
-
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div></div>
-        </div>
-    </div>
-    <div class="middle-container">
-        <div class="aesthetic-windows-xp-modal hidden" id="modal">
-            <!-- Title Bar -->
-            <div class="aesthetic-windows-xp-modal-title-bar">
-
-                <div id="name" class="aesthetic-windows-xp-modal-title-bar-text">
-                    Study Flash
-                </div>
-
-                <div class="aesthetic-windows-xp-modal-title-bar-controls">
-                    <div class="aesthetic-windows-xp-button-title-bar-close">
-                        <button onclick="toggleModal()">
-                            X
-                        </button>
-                    </div>
-                </div>
-
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div><button onclick="toggleModal('Contact Manager',
+                'A basic contact manager using LAMP stack which contains a user database as well as corresponding contacts.',
+                '',
+                'https://github.com/saminajib/COP4331TEAM24')">Contact Manager</button></div>
             </div>
 
-            <!-- Content -->
-            <!-- Could be a tabbed container, or a set of dropdowns, etc... -->
-            <div class="aesthetic-windows-xp-modal-content">
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div><button onclick="toggleModal('PL/0 Compiler',
+                'Compiler for PL/0 language using top down parser descent. Guarantees adherence to language EBNF and generates corresponding machine code if no grammar or syntax errors exist. Repo also contains virtual machine to test machine code and simulate stack.',
+                '',
+                'https://github.com/saminajib')">PL/0 Compiler</button></div>
+            </div>
 
-                <div class="popup-box">
-                    <div id="description" class="modal-center">A website to make studying as efficient as possible by saving time with advanced ai study material generation.</div>
-                    <div class="modal-bottom">
-                        <div>Website:<a id="website-link" href="https://studyflash.study">https://studyflash.study</a></div>
-                        <div>Github:<a id="github-link" href="https://studyflash.study">https://studyflash.study</a></div>
-                    </div>
-                </div>
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div><button onclick="toggleModal('Study Flash',
+                'A website to make studying as efficient as possible by saving time with advanced ai study material generation.',
+                'https://studyflash.study',
+                'https://github.com/seb1124/studyFlash')">Study Flash</button></div>
+            </div>
 
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div></div>
             </div>
         </div>
-    </div>
-    <div class="folder-container">
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div></div>
+        <div class="middle-container">
+            <div class="aesthetic-windows-xp-modal hidden" id="modal">
+                <!-- Title Bar -->
+                <div class="aesthetic-windows-xp-modal-title-bar">
+
+                    <div id="name" class="aesthetic-windows-xp-modal-title-bar-text">
+                        Study Flash
+                    </div>
+
+                    <div class="aesthetic-windows-xp-modal-title-bar-controls">
+                        <div class="aesthetic-windows-xp-button-title-bar-close">
+                            <button onclick="toggleModal()">
+                                X
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+                <!-- Could be a tabbed container, or a set of dropdowns, etc... -->
+                <div class="aesthetic-windows-xp-modal-content">
+
+                    <div class="popup-box">
+                        <div id="description" class="modal-center">A website to make studying as efficient as possible by saving time with advanced ai study material generation.</div>
+                        <div class="modal-bottom">
+                            <div>Website:<a id="website-link" href="https://studyflash.study">https://studyflash.study</a></div>
+                            <div>Github:<a id="github-link" href="https://studyflash.study">https://studyflash.study</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div></div>
-        </div>
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div></div>
-        </div>
-        <div class="col text-center">
-            <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
-            <div></div>
+        <div class="folder-container">
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div></div>
+            </div>
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div></div>
+            </div>
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div></div>
+            </div>
+            <div class="col text-center">
+                <img class="folder" src="img/icons8-mac-folder-96.png" alt="Folder Icon">
+                <div></div>
+            </div>
         </div>
     </div>
 </body>

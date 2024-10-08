@@ -1,4 +1,10 @@
 body{
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -119,4 +125,15 @@ button {
 
 .hidden{
     display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .folder{
+        height: 60px;
+        width: auto;
+    }
+
+    button {
+        font-size: 12px;
+    }
 }
