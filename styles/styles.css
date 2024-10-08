@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    padding: 0;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url("../img/D8369A33-0CC1-456C-839E-5937E458A22F_1_105_c.jpeg");
+    background-size: cover; /* Makes sure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+}
+
+.folder{
+    height: 90px;
+    width: auto;
+}
+
+.folder-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+button {
+    -webkit-appearance: none; /* Neutralize Safari's default styles */
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Chrome-like button styles */
+    display: inline-block;
+    padding: 5px  7px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid gray;
+    user-select: none;
+
+    /* Font properties */
+    font-weight: 400;
+    text-transform: none;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+button:hover {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+button:active {
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
+button {
+    font-size: 14px;
+}
+
+.center{
+    text-align: center;
+}
+
+.col.text-center{
+    margin: 2px;
+}
+
+.popup-box{
+    height: 150px;
+    padding: 0 0 15px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.modal-heading{
+    width: 373px;
+    background-color: lightgray;
+    border-bottom: 1px solid #000;
+}
+
+.modal-top{
+    display: flex;
+}
+
+.modal-center{
+    margin: 15px 10px;
+}
+
+.modal-bottom{
+    align-self: flex-end;
+}
+
+.modal-exit{
+    background-color: #EEEEEE;
+}
+
+.aesthetic-windows-xp-modal{
+    text-align: center;
+    width: 400px;
+    height: 250px;
+}
+
+.hidden{
+    display: none;
+}
