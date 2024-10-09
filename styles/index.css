@@ -89,6 +89,11 @@ body{
         justify-content: flex-start;
         align-content: space-between;
     }
+
+    body {
+        overflow-x: hidden;
+    }
+
 }
 
 
