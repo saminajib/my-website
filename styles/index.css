@@ -1,0 +1,77 @@
+body{
+    background-color: #4801ff;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.earth{
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-darken {
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.image-darken:hover {
+    opacity: 0.6; /* Darkens image by reducing opacity */
+}
+
+.earth-text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Impact, serif;
+    text-shadow: 2px 2px 5px #245DDA;
+}
+
+.earth:hover{
+    font-size: 29px !important;
+}
+
+.left-container{
+    width: 250px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+    transform: rotate(-3deg); /* Rotate the entire list slightly to match the slanted effect */
+}
+
+li {
+    font-family: Impact, serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin: 10px;
+    line-height: 0.9; /* Reduce line height */
+}
+
+li::before {
+    color: #000;
+    margin-right: 10px;
+}
+
+/* Invert list alignment */
+li:nth-child(even) {
+    transform: rotate(5deg); /* Slight rotation on every second item for variation */
+    color: grey;
+    font-size: 60px;
+}
+
+
