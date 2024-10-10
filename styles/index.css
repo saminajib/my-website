@@ -29,11 +29,13 @@ body{
     opacity: 0.6; /* Darkens image by reducing opacity */
 }
 
+a{
+    text-decoration: none;
+}
+
 .earth-text{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-align: center;
     color: white;
     font-family: Impact, serif;
     text-shadow: 2px 2px 5px #245DDA;
@@ -90,9 +92,6 @@ body{
         align-content: space-between;
     }
 
-    html, body {
-        overflow-x: hidden;
-    }
 }
 
 
