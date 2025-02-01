@@ -54,6 +54,7 @@ function gamePlan() {
 function dragonfly() {
     openModal('Dragonfly Titan',
         'Developing a simulation of NASA\'s Dragonfly mission to explore Titan, Saturn\'s moon. It replicates realistic flight dynamics, atmospheric conditions, and terrain mapping. The project aims to create an engaging and scientifically accurate experience.',
+        '',
         '');
 }
 
