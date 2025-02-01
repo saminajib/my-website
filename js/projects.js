@@ -18,7 +18,7 @@ async function loadingBar() {
 
 function website(){
     openModal('My Website',
-        'In case you are interested for the source code of this website.',
+        'In case you are interested in the source code of this website.',
         'https://saminajib.github.io/my-website/',
         'https://github.com/saminajib/my-website');
 }
